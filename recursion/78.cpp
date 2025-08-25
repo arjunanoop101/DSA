@@ -1,10 +1,10 @@
-#include<iostream>
-#include<vector>
-using namespace std;
-
 // Given an integer array nums of unique elements, return all possible subsets (the power set).
-// The solution set must not contain duplicate subsets. Return the solution in any order.
 
+// The solution set must not contain duplicate subsets. Return the solution in any order.
+// Input: nums = [1,2,3]
+// Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+
+#include<bits/stdc++.h>
 class Solution {
 public:
     void generate(vector<vector<int>>&ans,vector<int> &list, vector<int>&nums,int index){
